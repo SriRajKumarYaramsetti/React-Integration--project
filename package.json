@@ -8,6 +8,9 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "http-server -p 3000 -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
