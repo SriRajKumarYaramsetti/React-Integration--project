@@ -10,7 +10,7 @@ fetch('http://127.0.0.1:9091/api/employees', {
 })
   .then(res => {
     if (!res.ok) {
-      throw new Error(`HTTP error! status: ${res.status}`);
+      throw new Error(`Hdjahfgjshdfghjksdhfgjkhjsdfk! status: ${res.status}`);
     }
     return res.json();
   })
